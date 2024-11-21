@@ -59,3 +59,27 @@ A web application for managing NFTs, where users can buy, sell, and manage their
    ```bash
    git clone https://github.com/your-username/nft-management-app.git
    cd nft-management-app
+   
+ ### Start the XAMPP Server
+1. Open the **XAMPP Control Panel**.
+2. Start the **Apache** and **MySQL** services.
+
+---
+
+### Import the Database
+
+1. Open **phpMyAdmin** in your browser:  
+   `http://localhost/phpmyadmin`
+2. Create a new database named:  
+   `nft_marketplace`
+3. Import the `nft_marketplace.sql` file from the `/database` directory.
+
+---
+
+### Copy the Project Files to the `htdocs` Folder
+
+1. Move the project files to the `htdocs` folder in your XAMPP installation directory.  
+   Example command (if you're using a terminal):  
+   ```bash
+   cp -r nft-management-app /path-to-xampp/htdocs/
+
